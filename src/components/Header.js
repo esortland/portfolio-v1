@@ -1,20 +1,22 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-
+const name = ' ES'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-terminal">{name}</span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>I am Eric Sortland</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Undergraduate Student 
+          <br></br>
+          HCI Researcher 
+          <br></br>
+          Full Stack Developer
+          <br></br>
+          Constant Learner
         </p>
       </div>
     </div>
@@ -23,39 +25,39 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            Work
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
               props.onOpenArticle('about')
             }}
           >
-            About
+            About Me  
           </button>
         </li>
         <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('education')
+            }}
+          >
+            Education
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('experience')
+            }}
+          >
+            Experience
+          </button>
+        </li>
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Contact  
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   </header>
