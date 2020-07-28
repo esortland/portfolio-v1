@@ -1,8 +1,10 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'Eric Sortland',
+    author: 'Eric Sortland',
+    description: 'Professional Profile of Eric Sortland',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,5 +21,16 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `GitHub`,
+        fieldName: `github`,
+        url: `https://api.github.com/graphql`,
+        headers: {
+          Authorization: `Bearer ${process.env.GITHUB_API_KEY}`
+        }
+      }
+    }
   ],
 }

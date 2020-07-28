@@ -65,11 +65,14 @@
 
 		&.main {
 			display: block;
-			margin: (_size(element-margin) * 1.25) 0;
+			margin: (_size(element-margin) * 1) 0;
 			width: 100%;
-
 			img {
-				width: 100%;
+				float: right;
+				width: 25%;
+				height: 25%;
+				border-radius: 100%;
+				padding: 1rem;
 			}
 		}
 

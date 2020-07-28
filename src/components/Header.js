@@ -12,7 +12,7 @@ const Header = props => (
         <p>
           Undergraduate Student 
           <br></br>
-          HCI Researcher 
+          SC Researcher 
           <br></br>
           Full Stack Developer
           <br></br>
@@ -49,15 +49,6 @@ const Header = props => (
             Experience
           </button>
         </li>
-        {/* <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact  
-          </button>
-        </li> */}
       </ul>
     </nav>
   </header>
