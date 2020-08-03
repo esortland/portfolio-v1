@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import profile from '../images/profile.jpeg'
+import Projects from './Projects/Projects'
 
 class Main extends React.Component {
   render() {
@@ -85,6 +86,18 @@ class Main extends React.Component {
             Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
             amet.
           </p>
+          {close}
+        </article>
+
+        <article
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Projects</h2>
+          <Projects/>
           {close}
         </article>
 

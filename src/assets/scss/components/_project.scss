@@ -1,0 +1,38 @@
+.description {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    max-height: 90px;
+    overflow: auto;
+}
+
+h3 {
+    margin-left: 1.5rem;
+}
+
+
+.project {
+    height: fit-content;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    margin: 0rem;
+    border-radius: 8px;
+    transition: all 0.25s ease 0s;
+    margin-right: 20px;
+    box-shadow: 0;
+    padding: 1rem;
+    border: solid _size(border-width) _palette(border);
+    border-radius: _size(border-radius);
+}
+
+.project:hover {
+    background-color: _palette(border-bg);
+}
+
+.project:active {
+    background-color: _palette(border-bg-alt);
+}
+
+
+
