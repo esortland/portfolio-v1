@@ -37,6 +37,7 @@ const Projects = () => {
 					description={project.description}
 					updatedAt={project.updatedAt}
 					url={project.url}
+					key = {key}
 				/>
 		)
 	})

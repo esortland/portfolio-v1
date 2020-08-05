@@ -1,22 +1,32 @@
-.description {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0px;
-    max-height: 90px;
-    overflow: auto;
-}
-
 h3 {
     margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    text-transform: none;
 }
 
+.description {
+    margin: 0;
+    max-height: 5.5rem;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.description::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    margin: 0; 
+}
 
 .project {
-    height: fit-content;
+    max-height: 9rem;
     position: relative;
+    width: 15rem;
     top: 0px;
     cursor: pointer;
-    margin: 0rem;
+    margin: 1rem;
     border-radius: 8px;
     transition: all 0.25s ease 0s;
     margin-right: 20px;

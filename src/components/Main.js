@@ -34,8 +34,8 @@ class Main extends React.Component {
           <p>
             Hi! My name is Eric Sortland, I am a senior studying Computer Science
             at the University of Minnesota, Twin Cities. I am interested in building 
-            impactful applications that provide solutions and new insights to 
-            their users.
+            data driven applications that provide impactful solutions and unique insights to 
+            their end users.  
           </p>
           <p>
             
@@ -94,7 +94,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none', maxHeight: '30rem' }}
         >
           <h2 className="major">Projects</h2>
           <Projects/>

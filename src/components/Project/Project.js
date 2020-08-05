@@ -15,7 +15,9 @@ const Project = ({name, description, url, updatedAt}) => {
 			>
 				<div className="icon fa-github" style={{position: 'fixed'}}></div>
 				<h3> {name} </h3>
-				<p>{description}</p>
+				<div className='description'>
+					<p>{description}</p>
+				</div>
 			</div>
 		</React.Fragment>		
 	)
