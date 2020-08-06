@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import profile from '../images/profile.jpeg'
 import Projects from './Projects/Projects'
+import Experience from './Experience/Experience'
 
 class Main extends React.Component {
   render() {
@@ -74,18 +75,10 @@ class Main extends React.Component {
           className={`${this.props.article === 'experience' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
+          style={{ display: 'none'}}
         >
-          <h2 className="major">Experience</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h2 className="major" style={{margin: 'auto', marginBottom: '3rem'}}>Experience</h2>
+          <Experience />
           {close}
         </article>
 
