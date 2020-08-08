@@ -1,0 +1,11 @@
+.profile_pic {
+    display: inline;
+    width: 10rem;
+    float: right;
+    border-radius: 100%;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 200px));
+}

@@ -26,21 +26,36 @@ class Main extends React.Component {
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ width: '60rem', display: 'none' }}
+          style={{display: 'none' }}
         >
           <h2 className="major">About Me</h2>
-          <span className="image main">
-            <img src={profile} alt="Profile Picture" />
-          </span>
+          <img className="profile_pic" src={profile} alt="Profile Picture" />
           <p>
             Hi! My name is Eric Sortland, I am a senior studying Computer Science
             at the University of Minnesota, Twin Cities. I am interested in building 
             data driven applications that provide impactful solutions and unique insights to 
             their end users.  
           </p>
+          <br/>
           <p>
-            
+            To suplement my CS degree I am pairing it with a minor in Mathematics.  
+            Outside of my studies I am conducting social computing research with the 
+            GroupLens research lab, most recently as a member of the Flip*Doubt team. 
           </p>
+          <br/>
+          <h4>Some Tech I have worked With:</h4>
+          <ul className="tech">
+            <li>ReactJS</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>NodeJS</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>Jest/Enzyme</li>
+            <li>JUnit</li>
+            <li>Docker</li>
+            <li>Spring Boot</li>
+          </ul>
           {close}
         </article>
 
@@ -53,20 +68,22 @@ class Main extends React.Component {
         >
           <h2 className="major">Education</h2>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            I am currently in my senior year at the University of Minnesota, Twin Cities.
+            I am pursuing a B.S. in Computer Science with an emphasis in Software Engineering
+            and Data Systems. Along with my CS major I am pursing a minor in Mathematics.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <br/>
+          <br/>
+          <h4>Relevant Coursework:</h4>
+          <ul className="classwork">
+            <li>Algorithms and Data Structures</li>
+            <li>Adv. Programming Principles</li>
+            <li>Intro to Operating Systems</li>
+            <li>Machine Architecture and Organization</li>
+            <li>Applied Linear Algebra</li>
+            <li>Theory of Probability and Statistics</li>
+            <li>Multivariabel Calculus</li>
+          </ul>
           {close}
         </article>
 
@@ -87,7 +104,7 @@ class Main extends React.Component {
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none', maxHeight: '30rem' }}
+          style={{ display: 'none', maxHeight: 'fit-content' }}
         >
           <h2 className="major">Projects</h2>
           <Projects/>
