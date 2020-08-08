@@ -27,7 +27,7 @@ const Header = props => (
       </div>
     </div>
     <nav>
-      <ul>
+      <ul style={{paddingLeft: '0.25rem'}}>
         <li>
           <button
             onClick={() => {
@@ -61,11 +61,37 @@ const Header = props => (
               props.onOpenArticle('projects')
             }}
           >
-            Project
+            Projects
           </button>
         </li>
       </ul>
     </nav>
+    <div style={{position: 'static', marginTop: '1.5rem'}}>
+    <ul className="icons">
+      <li>
+        <a 
+          href='http://www.linkedin.com/in/ericsortlandumn/'
+          className="icon fa-linkedin">
+          <span className="label">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a 
+          href="mailto:esortlan@gmail.com" 
+          className="icon fa-envelope">
+          <span className="label">Email</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/esortland"
+          className="icon fa-github"
+        >
+          <span className="label">GitHub</span>
+        </a>
+      </li>
+    </ul>
+    </div>
   </header>
 )
 
