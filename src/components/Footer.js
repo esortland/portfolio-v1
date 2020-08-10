@@ -5,13 +5,13 @@ const Footer = (props) => (
 		<footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
 			<ul className="info">
 				<li>
-						Code on <a href="https://www.github.com/portfolio-v1">GitHub</a>. 
+						Code on <a target="_blank" href="https://www.github.com/esortland/portfolio-v1">GitHub</a>. 
 				</li>
 				<li>
-						Created by <a href="https://www.github.com/esortland">Eric Sortland</a>
+						Created by <a target="_blank" href="https://www.github.com/esortland">Eric Sortland</a>
 				</li>
 				<li>
-						Built with <a href="https://www.gatsbyjs.org/">Gatsby.js</a>
+						Built with <a target="_blank" href="https://www.gatsbyjs.org/">Gatsby.js</a>
 				</li>
 			</ul>
 		</footer>

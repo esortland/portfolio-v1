@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import Contacts from './Contacts/Contacts'
 const name = ' ES'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -9,15 +10,6 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>I am Eric Sortland</h1>
-        {/* <p>
-          Undergraduate Student  
-          <br></br>
-          SC Researcher  
-          <br></br>
-          Full Stack Developer 
-          <br></br>
-          Constant Learner 
-        </p> */}
         <ul>
           <li>Undergraduate Student</li>
           <li>SC Researcher</li>
@@ -66,32 +58,7 @@ const Header = props => (
         </li>
       </ul>
     </nav>
-    <div style={{position: 'static', marginTop: '1.5rem'}}>
-    <ul className="icons">
-      <li>
-        <a 
-          href='http://www.linkedin.com/in/ericsortlandumn/'
-          className="icon fa-linkedin">
-          <span className="label">LinkedIn</span>
-        </a>
-      </li>
-      <li>
-        <a 
-          href="mailto:esortlan@gmail.com" 
-          className="icon fa-envelope">
-          <span className="label">Email</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/esortland"
-          className="icon fa-github"
-        >
-          <span className="label">GitHub</span>
-        </a>
-      </li>
-    </ul>
-    </div>
+    <Contacts/>
   </header>
 )
 

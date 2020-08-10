@@ -1,0 +1,5 @@
+.contacts {
+    @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
+    position: relative;
+    margin-top: 1.5rem;
+}
