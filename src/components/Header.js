@@ -57,8 +57,9 @@ const Header = props => (
           </button>
         </li>
       </ul>
+      <Contacts/>
     </nav>
-    <Contacts/>
+    
   </header>
 )
 
