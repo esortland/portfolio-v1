@@ -1,7 +1,7 @@
 # Eric Sortland's Professional Portfolio v1
 
-**This website uses CodeBushi's gatsby-starter-dimension as a template**
-[![GitHub tag](https://img.shields.io/github/stars/codebushi/gatsby-starter-dimension)](https://github.com/codebushi/gatsby-starter-dimension)
+**This website uses CodeBushi's [gatsby-starter-dimension](https://github.com/codebushi/gatsby-starter-dimension) as a template**
+
 
 ## Description
 
