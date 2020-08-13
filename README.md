@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/903b7313-86c3-4407-980f-708780df7fed/deploy-status)](https://app.netlify.com/sites/ericsortland/deploys)
+
 # Eric Sortland's Professional Portfolio v1
 
 **This website uses CodeBushi's [gatsby-starter-dimension](https://github.com/codebushi/gatsby-starter-dimension) as a template**
