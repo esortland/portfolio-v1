@@ -31,15 +31,15 @@ class Main extends React.Component {
           <h2 className="major">About Me</h2>
           <img className="profile_pic" src={profile} alt="Profile Picture" />
           <p>
-            Hi! My name is Eric Sortland, I am a senior studying Computer Science
+            Hi! My name is Eric Sortland. I am a senior studying Computer Science
             at the University of Minnesota, Twin Cities. I am interested in building 
             data driven applications that provide impactful solutions and unique insights to 
             their end users.  
           </p>
           <br/>
           <p>
-            To suplement my CS degree I am pairing it with a minor in Mathematics.  
-            Outside of my studies I am conducting social computing research with the 
+            To supplement my CS degree, I am pairing it with a minor in Mathematics.  
+            Outside of my studies, I am conducting social computing research with the 
             GroupLens research lab, most recently as a member of the Flip*Doubt team. 
           </p>
           <br/>
@@ -70,7 +70,7 @@ class Main extends React.Component {
           <p>
             I am currently in my senior year at the University of Minnesota, Twin Cities.
             I am pursuing a B.S. in Computer Science with an emphasis in Software Engineering
-            and Data Systems. Along with my CS major I am pursing a minor in Mathematics.
+            and Data Systems. Along with my CS major, I am pursing a minor in Mathematics.
           </p>
           <br/>
           <br/>
