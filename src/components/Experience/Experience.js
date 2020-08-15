@@ -2,9 +2,8 @@ import  React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import ExperiencePage from '../ExperiencePage/ExperiencePage'
 
-const Experience = props => {
+const Experience = () => {
 	const [page, setPage] = useState(0)
-
 	return(
 		<React.Fragment>
 				<nav>

@@ -11,7 +11,7 @@ const Footer = (props) => (
 						Created by <a target="_blank" href="https://www.github.com/esortland">Eric Sortland</a>
 				</li>
 				<li>
-						Built with <a target="_blank" href="https://www.gatsbyjs.org/">Gatsby.js</a>
+						Built with <a target="_blank" href="https://www.gatsbyjs.com/">Gatsby.js</a>
 				</li>
 			</ul>
 		</footer>

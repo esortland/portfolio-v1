@@ -82,7 +82,7 @@ class Main extends React.Component {
             <li>Machine Architecture and Organization</li>
             <li>Applied Linear Algebra</li>
             <li>Theory of Probability and Statistics</li>
-            <li>Multivariabel Calculus</li>
+            <li>Multivariable Calculus</li>
           </ul>
           {close}
         </article>
