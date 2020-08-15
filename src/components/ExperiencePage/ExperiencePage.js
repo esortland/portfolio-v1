@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 
 const target = 
 	<React.Fragment>
 		<h3 className='title'>Software Engineering Intern</h3>
 		<h4 className='employer'>Target</h4>
-		<h4 className='timeline'>Jun 20202 - Aug 2020</h4>
+		<h4 className='timeline'>Jun 2020 - Aug 2020</h4>
 		<hr/>
 		<div className='job_description'>
 			<p>
