@@ -14,10 +14,10 @@ const target =
 			</p>
 			<br/>
 			<p>
-				Propsed a larger project of redesigning the Create Assortment Plan
+				Proposed a larger project of redesigning the Create Assortment Plan
 				core component and its children. Leveraging Formik, I was able to simplify 
 				all form logic into one componenet where previously it was split into three.
-				This resulted in improved code readability, maintainablitiy, and overall 
+				This resulted in improved code readability, maintainability, and overall 
 				user experience.
 			</p>
 			<br/>
