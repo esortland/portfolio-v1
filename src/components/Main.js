@@ -70,7 +70,7 @@ class Main extends React.Component {
           <p>
             I am currently in my senior year at the University of Minnesota, Twin Cities.
             I am pursuing a B.S. in Computer Science with an emphasis in Software Engineering
-            and Data Systems. Along with my CS major, I am pursing a minor in Mathematics.
+            and Data Systems. Along with my CS major, I am pursuing a minor in Mathematics.
           </p>
           <br/>
           <br/>
